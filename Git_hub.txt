@@ -1,0 +1,40 @@
+Course of git and github - channel youtube Faraday Academy
+
+What is git - Free and open source version control system.
+
+What is Version Control?
+
+The management of changes to document, computer programs, large web site, and other collections of information
+
+Git Commands
+
+- clone: Bring a repository that is hosted (hospedado) somewhere like Github 
+into a folder on your local machine
+
+- add: Track (camino) your files and changes in Git, after make a commit
+
+- commit: Save your files in Git 
+
+- push: Upload Git commits to a remote repo, like Github
+
+- pull: Download changes from remote repo to your local machine, 
+  the opposite of push
+
+Use git for project Course_git
+
+1. We created new files called index.html and Git_hub.txt
+
+we must add this file a git with: 
+
+git add index.html 
+git add Git_hub.txt
+
+or use 
+
+git add . 
+
+2. Now we save the changes in git with:
+
+git commit -m "added index" -m "Test git and github"
+
+3. 
