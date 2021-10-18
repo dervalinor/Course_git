@@ -51,6 +51,9 @@ with the branch we can take different version of our code
  
 - git branch name_new_branch: create a new branch for work
 
+- git checkout name_new_branch: move to new branch
+here we can modify the project of free and all change will save in this branch
+
 
 Use git for project Course_git 
 
