@@ -30,6 +30,17 @@ like Github into a folder on your local machine
 
 - git log : let see all the commits
 
+Now we goint to learn return back something change
+
+if we want to return back the changes in a file
+Note: this we can make if we don't make commit or git add .
+
+- git checkout -- name_file 
+
+- git diff: we can see the difference of change code before and after
+    - git diff: see diference all file
+    - git diff name_file: see difference only this file
+
 Use git for project Course_git 
 
 NOTE: this save branch master
@@ -58,3 +69,7 @@ git push -u origin master
 
 4. We add README.md (this file is repository github) to our project
 git pull https://github.com/dervalinor/Course_git.git master
+
+5. we modified index.html but we can return back this change then:
+
+git checkout -- index.html
