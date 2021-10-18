@@ -8,19 +8,33 @@ The management of changes to document, computer programs, large web site, and ot
 
 Git Commands
 
-- clone: Bring a repository that is hosted (hospedado) somewhere like Github 
-into a folder on your local machine
+- git init: Initialize project
 
-- add: Track (camino) your files and changes in Git, after make a commit
+- git status: see files we working in git
 
-- commit: Save your files in Git 
+- config git for work
+    - git config --global user.email "your_gmail@gmail.com"
+    - git config --global user.name "Your_name"
 
-- push: Upload Git commits to a remote repo, like Github
+- git clone https://github.com/name_user/name_repository.git : Bring a repository that is hosted (hospedado) somewhere 
+like Github into a folder on your local machine
 
-- pull: Download changes from remote repo to your local machine, 
+- git add name_file  : Track (camino) your files and changes in Git, after make a commit
+
+- git commit: Save your files in Git 
+
+- git push -u origin name_branch: Upload Git commits to a remote repo, like Github
+
+- git pull https://github.com/name_user/name_repository.git name_branch : Download changes from remote repo to your local machine, 
   the opposite of push
 
-Use git for project Course_git
+- git log : let see all the commits
+
+Use git for project Course_git 
+
+NOTE: this save branch master
+
+git init - initiaze project Course_git
 
 1. We created new files called index.html and Git_hub.txt
 
@@ -35,6 +49,12 @@ git add .
 
 2. Now we save the changes in git with:
 
-git commit -m "added index" -m "Test git and github"
+git commit -m "added index" -m "Test git and github" 
+this command create a id for each modified file
 
-3. 
+3. Upload project in github
+
+git push -u origin master
+
+4. We add README.md (this file is repository github) to our project
+git pull https://github.com/dervalinor/Course_git.git master
