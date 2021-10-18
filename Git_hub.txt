@@ -46,6 +46,11 @@ Note: git checkout and git diff we can use before make a git add . and git commi
 - .gitignore: this file we put all files for ignore (no add to project git)
 here file we write name folder or files to ignore
 
+- git branch: see the branch where we are working
+with the branch we can take different version of our code
+ 
+- git branch name_new_branch: create a new branch for work
+
 
 Use git for project Course_git 
 
