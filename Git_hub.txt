@@ -41,6 +41,10 @@ Note: this we can make if we don't make commit or git add .
     - git diff: see diference all file
     - git diff name_file: see difference only this file
 
+- .gitignore: this file we put all files for ignore (no add to project git)
+
+
+
 Use git for project Course_git 
 
 NOTE: this save branch master
@@ -73,3 +77,6 @@ git pull https://github.com/dervalinor/Course_git.git master
 5. we modified index.html but we can return back this change then:
 
 git checkout -- index.html
+
+6. git diff index.html 
+See all changes in index.html
