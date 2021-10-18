@@ -35,14 +35,16 @@ Now we goint to learn return back something change
 if we want to return back the changes in a file
 Note: this we can make if we don't make commit or git add .
 
+
 - git checkout -- name_file 
 
 - git diff: we can see the difference of change code before and after
     - git diff: see diference all file
     - git diff name_file: see difference only this file
+Note: git checkout and git diff we can use before make a git add . and git commit
 
 - .gitignore: this file we put all files for ignore (no add to project git)
-
+here file we write name folder or files to ignore
 
 
 Use git for project Course_git 
