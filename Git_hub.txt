@@ -34,9 +34,8 @@ Now we goint to learn return back something change
 
 if we want to return back the changes in a file
 Note: this we can make if we don't make commit or git add .
-
-
 - git checkout -- name_file 
+
 
 - git diff: we can see the difference of change code before and after
     - git diff: see diference all file
@@ -54,7 +53,15 @@ with the branch we can take different version of our code
 - git checkout name_new_branch: move to new branch
 here we can modify the project of free and all change will save in this branch
 if we change of branch to new files disappear (save in other branch)
+Note: before of make change of branch, make git commit for avoid error
 
+- upload project github
+
+- git remote add origin https://github/name_user/name_project.git
+add the repository for we can upload code
+
+- git push -u origin name_branch 
+upload code (remember use as password a token -see setting -> token- )
 
 
 Use git for project Course_git 
