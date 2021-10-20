@@ -99,3 +99,8 @@ git checkout -- index.html
 
 6. git diff index.html 
 See all changes in index.html
+
+7. Our repository we create a new file README.md and we must add to our 
+local repository 
+
+git pull https://github.com/dervalinor/Course_git
